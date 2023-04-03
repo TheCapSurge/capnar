@@ -60,7 +60,7 @@ six==1.16.0
 sniffio>=latest_version
 sympy>=latest_version
 tokenizers==0.13.2
-toolz==0.12.0
+toolz>=latest_version
 torch==2.0.0+cu117
 torchaudio==2.0.1+cu117
 torchvision==0.15.1+cu117
