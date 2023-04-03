@@ -39,7 +39,7 @@ mpmath==1.2.1
 multidict==6.0.4
 networkx>=latest_version
 nltk==3.8.1
-numpy==1.24.2
+numpy>=latest_version
 openai==0.27.2
 packaging==23.0
 parsimonious==0.9.0
