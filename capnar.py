@@ -8,12 +8,13 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackQueryHandler
 from web3 import Web3
 import json
+import os
 
 
 chat_wordlimit = 1500
 responsetokenlimit = 1024
-openai.api_key = "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"
-telegram_token = "6125658357:AAHbdcKIXNcujc0b7AEG_D_xk86OMN1D6TQ"
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+telegram_token = os.environ.get("TELEGRAM_TOKEN")
 bot_name = '@CaptainSurgeAI_bot'
 
 # Replace with your Binance Smart Chain node URL
