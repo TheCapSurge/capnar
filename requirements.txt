@@ -58,7 +58,7 @@ rfc3986==1.5.0
 rlp==3.0.0
 six==1.16.0
 sniffio>=latest_version
-sympy==1.11.1
+sympy>=latest_version
 tokenizers==0.13.2
 toolz==0.12.0
 torch==2.0.0+cu117
